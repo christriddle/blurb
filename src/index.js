@@ -3,6 +3,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Component = require('./components/component');
+var ActionPanel = require('./components/component');
 
-ReactDOM.render(<Component />, document.getElementById('container'));
+ReactDOM.render(<ActionPanel />, document.getElementById('container'));
